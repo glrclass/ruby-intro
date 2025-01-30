@@ -68,3 +68,17 @@ end
 # OR ||
 
 # Toggle line comment - CMD+/
+
+your_team_score
+other_team_score
+
+#elsif
+
+if
+your_team_score > other_team_score
+    puts "yay you won"
+elsif your_team_score == other_team_score
+    puts "you tied"
+else
+    puts "you lost" 
+end

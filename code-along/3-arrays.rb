@@ -33,5 +33,8 @@ favorite_foods.push("more tacos") #same result
 favorite_foods = favorite_foods + ["french fries", "ramen"] #adds more items to an array
 puts favorite_foods
 
+puts "Favorite_foods: #{favorite_foods.count}"
+puts "shopping list items: #{shopping_lists.length}"
+
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html

@@ -95,10 +95,8 @@ end
 #   index = index + 1
 # end
 
-# for taco in tacos
-#   puts "#{taco} tacos!"
-# end
+#shorthand!!! easier version than above
 
-tacos.each do taco << in between or lines
-  puts taco
+for taco in tacos
+  puts "#{taco} tacos!"
 end

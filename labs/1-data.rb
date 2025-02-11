@@ -15,3 +15,12 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+puts "Hello, world!"
+
+dice1= rand(1..6)
+dice2= rand(1..6)
+
+puts "Die 1: #{dice1}"
+puts "Die 2: #{dice2}"
+puts "Sum: "+ (dice1+dice2).to_s

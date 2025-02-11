@@ -2,7 +2,7 @@
 # is the same as where this file is located and then run:
 # ruby 3-arrays.rb
 
-# Arrays are lists of things
+# ARRAYS are lists of things
 
 # favorite_foods = ["tacos", "pizza", "ice cream"]
 # puts favorite_foods
@@ -33,7 +33,14 @@ favorite_foods.push("more tacos") #same result
 favorite_foods = favorite_foods + ["french fries", "ramen"] #adds more items to an array
 puts favorite_foods
 
-puts "Favorite_foods: #{favorite_foods.count}"
+# Combining arrays v2
+
+full_shopping_list = shopping_lists[0] + shopping_lists[1]
+puts full_shopping_list
+
+# Counting in arrays - .length, .count, .size -- all the same
+
+puts "Favorite foods: #{favorite_foods.count}"
 puts "shopping list items: #{shopping_lists.length}"
 
 # There are lots of fun things you can do with arrays:

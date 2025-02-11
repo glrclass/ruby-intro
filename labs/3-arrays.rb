@@ -15,3 +15,23 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+your_list = ["beer", "games", "pokemon", "eggs"]
+shared_list = my_list + your_list
+
+sorted_list = shared_list.sort.uniq
+    puts sorted_list
+
+    #can have multiple .xyz modifiers
+
+#puts "Buy #{sorted_list[0]}"
+#puts "Buy #{sorted_list[1]}"
+#puts "Buy #{sorted_list[2]}"
+#puts "Buy #{sorted_list[3]}"
+#puts "Buy #{sorted_list[4]}"
+
+sorted_list.each{
+    |item| puts "Buy "+item
+}
+#enumerator!! 

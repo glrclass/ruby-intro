@@ -109,6 +109,8 @@ end
 # end
 
 #shorthand!!! easier version than above
+  #make up a variable that will represent each element in the array as you iterate through it. can be called anything.
+  #in this case, I called it "taco"
 
 for taco in tacos
   puts "#{taco} tacos!"
@@ -121,3 +123,23 @@ for friend in friends
     greeting = "Hi #{friend}!"
     puts greeting
 end 
+
+#or better! stack 2 variables for a loop
+
+ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
+suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
+
+for rank in ranks
+    for suit in suits
+        puts "#{rank} of #{suit}"
+    end
+end
+
+#another way to do it with "each"
+
+sorted_list.each{
+    |item| puts "Buy "+item
+}
+#enumerator!! 
+
+
